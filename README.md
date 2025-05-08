@@ -23,7 +23,7 @@ This project implements a deep learning solution for flood detection using satel
 ## Dataset Structure
 
 The project expects the following dataset structure:
-```
+
 Dataset/
 ├── images/
 │   ├── 1.jpg
